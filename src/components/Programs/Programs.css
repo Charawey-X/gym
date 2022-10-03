@@ -1,3 +1,10 @@
+.programs{
+    display:flex;
+    flex-direction:column;
+    padding:0rem 2rem;
+    gap:2rem;
+}
+
 .programs-header{
     font-family:"Poppins";
     font-size: 2.5rem;
@@ -5,80 +12,63 @@
     color: #fff;
     display: flex;
     justify-content: center;
+    word-spacing: 1rem;
 }
 
-.program-list{
+.program-categories{
     display: flex;
     flex-direction: row;
-    gap:1rem;
     justify-content: center;
-    padding: 1rem 1rem 2rem 1rem;
-    font-family: "Poppins";
-    height:35rem;
+    gap: 2rem;
 }
 
-.program{
-    display:flex;
-    flex-direction: column;
+.category{
     background-color: var(--lightgray);
+    padding:1rem;
     border-radius: 1rem;
-    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.75);
-    padding: 1rem 1rem;
-    width:50%;
-    height: 50%;
-    transition:all 0.3s ease;
-}
-
-.program img{
-    width: 15%;
-    color: #fff;
-    padding-top: 1rem;
-}
-
-.program h3{
     font-family: "Poppins";
+    color:white;
+    width: 20rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.category:hover{
+    background-color: var(--lightgreen);
+    scale: 1.1;
+}
+
+.category>:nth-child(1){
+    width:2rem;
+    height:2rem;
+    fill:white;
+}
+
+.category>:nth-child(2){
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff;
 }
 
-.program p{
-    font-family: "Poppins";
+.category>:nth-child(3){
     font-size: 1rem;
     font-weight: 300;
-    color: #fff;
+    width:90%;
 }
-
 
 .join{
-    display: flex;
-    flex-direction: row;
+    display:flex;
     align-items: center;
-    justify-content:flex-start;
+    gap:2rem;
 }
 
-.join p{
+.join>:nth-child(1){
     font-size: 1.2rem;
     font-weight: 700;
+    font-family: "Poppins";
+    color: #fff;
     text-transform: uppercase;
 }
 
-.join img{
-    width: 8%;
-    color: #fff;
-    padding-left: 1rem;
-    padding-top:0;
+.join>:nth-child(2){
+    width: 1.5rem;
 }
 
-#flame{
-    width:12%;
-}
-
-#heart{
-    width:20%;
-}
-
-.program:hover{
-    background-color: var(--darkgreen);
-    scale:1.05;
-}

@@ -32,13 +32,15 @@
 
 .btn{
     padding:0.5rem 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     align-items:center;
     font-size: 1.2rem;
     font-weight: 500;
     font-family:'Poppins';
     cursor: pointer;
     transition: all 0.3s ease;
+    width:fit-content;
+    background-color: white;
 }
 
 .btn:hover{

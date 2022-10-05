@@ -72,3 +72,16 @@
     width: 1.5rem;
 }
 
+@media (max-width:1100px){
+    .program-categories{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .programs-header{
+        font-size:2rem;
+    }
+}

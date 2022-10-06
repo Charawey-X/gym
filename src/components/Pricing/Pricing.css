@@ -67,6 +67,7 @@
 .btn {
     align-self:center;
     justify-self:center;
+    font-weight:700;
 }
 
 .plan:hover{

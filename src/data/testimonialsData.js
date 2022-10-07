@@ -5,20 +5,19 @@ import image3 from "../assets/t-image3.jpg";
 export const testimonialsData = [
   {
     image: image1,
-    review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
+    review:'I am very happy with the results I got from the Fitclub. I lost 10 kg in 3 months and I feel great!',
     name: 'MATHEW HENDRICKSON',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: 'The Fitclub has the best trainers in the city. I have been training with them for 2 years and I have never been disappointed.',
     name: 'JOHN KEVIN',
-    status: 'COACH'
+    status: 'WEIGHTLIFTER'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:'The Fitclub is the best gym in the city. I have been a member for 3 years and I am very happy with the results.',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }

@@ -47,14 +47,10 @@
 
 .email-container input{
     padding-left:1rem;
-    border-radius: 0.5rem;
-}
-
-.email-container input{
-    padding-left:1rem;
     color:var(--lightgray);
     font-size: 1.2rem;
     font-weight: 700;
+    border-radius: 0.5rem;
     font-family: 'Poppins';
 }
 
@@ -69,6 +65,34 @@
 
 @media (max-width:992px) {
     .join-us{
+        flex-direction:column;
         flex-wrap:wrap;
+        align-content:center;
+        justify-content:center;
+    }
+
+    .left-j>:nth-child(2){
+        font-size: 2rem;
+        justify-content:center;
+    }
+
+    .left-j>:nth-child(3){
+        font-size: 2rem;
+    }
+
+    .email-container{
+        align-content:center;
+        justify-content:center;
+    }
+
+    .btn-j{
+        font-size:1rem;
+    }
+
+    .email-container input{
+        padding:0rem 1rem;
+        border-radius: 0.5rem;
+        width:55%;
+        font-size:1rem;
     }
 }

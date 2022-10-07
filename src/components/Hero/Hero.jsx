@@ -7,6 +7,7 @@ import Barbels from '../../assets/barbels.png';
 const Hero = () => {
   return (
     <div className="hero" id='hero'>
+        <div className='blur hero-blur'></div>
         <div className='left'>
             <Header></Header>
             <section className='best'>

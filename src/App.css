@@ -52,3 +52,11 @@
     font-weight:600;
     scale: 1.1;
 }
+
+.blur{
+  background:rgba(0, 173, 27, 0.69);
+  position:absolute;
+  border-radius:50%;
+  filter:blur(150px);
+  z-index:-1;
+}

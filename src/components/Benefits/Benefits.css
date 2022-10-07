@@ -109,6 +109,24 @@
     }
 }
 
+@media (max-width:600px){
+    .right-b h3{
+        font-size:1.5rem;
+    }
+    .right-b span{
+        font-size:1.5rem;
+    }
+
+    .benefit p{
+        font-size:1rem;
+    }
+
+    .benefit img{
+        width:1rem;
+        height:1rem;
+    }
+}
+
 @media (min-width: 768px) { 
     .left-b{
         align-items:center;

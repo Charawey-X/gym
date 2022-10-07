@@ -2,16 +2,21 @@ import React from 'react';
 import Header from '../Header/Header';
 import './Hero.css';
 import Barbels from '../../assets/barbels.png';
+import {motion} from 'framer-motion';
 
 
 const Hero = () => {
+    const transition = {type: 'spring', duration: 5};
   return (
     <div className="hero" id='hero'>
         <div className='blur hero-blur'></div>
         <div className='left'>
             <Header></Header>
             <section className='best'>
-                <div></div>
+                <motion.div
+                    initial={{left:'350px'}}
+                    whileInView={{left:'8px', transition: transition}}
+                ></motion.div>
                 <span>THE BEST FITNESS CLUB IN TOWN</span>
             </section>
             <section className='hero-text'>

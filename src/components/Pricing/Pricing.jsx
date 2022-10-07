@@ -3,6 +3,7 @@ import './Pricing.css';
 import {plansData} from '../../data/plansData';
 import feature_icon from '../../assets/whiteTick.png';
 
+
 const Pricing = () => {
   return (
     <div className='pricing' id='pricing'>

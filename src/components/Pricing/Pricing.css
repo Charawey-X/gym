@@ -94,6 +94,35 @@
     }
 
     .programs-header{
-        font-size:2rem;
+        font-size:1.5rem;
+    }
+
+    .plan{
+        gap:1rem;
+        padding:1rem;
+    }
+
+    .plan>:nth-child(1){
+        width:1rem;
+        height:1rem;
+    }
+
+    .plan>:nth-child(2){
+        font-size:1rem;
+    }
+
+    .plan>:nth-child(3){
+        font-size:1.3rem;
+    }
+
+    .features span{
+        font-size:0.8rem;
+        font-weight:400;
+        color:white;
+    }
+
+    .features img {
+        width:1rem;
+        height:1rem;
     }
 }

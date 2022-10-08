@@ -5,19 +5,19 @@ import './Sidebar.css';
 const Sidebar = () => {
   return (
     <Menu>
-      <a className="menu-item" href="/">
+      <a className="menu-item" href="#programs">
         Programs
       </a>
-      <a className="menu-item" href="/salads">
+      <a className="menu-item" href="#benefits">
         Benefits
       </a>
-      <a className="menu-item" href="/pizzas">
+      <a className="menu-item" href="#pricing">
         Pricing
       </a>
-      <a className="menu-item" href="/desserts">
+      <a className="menu-item" href="#testimonials">
         Testimonials
       </a>
-      <a className="menu-item" href="/desserts">
+      <a className="menu-item" href="#join-us">
         Contact Us
       </a>
     </Menu>

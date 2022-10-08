@@ -23,5 +23,5 @@ In the project directory, you can run:
 - Launches the test runner in the interactive watch mode.
 
 # MIT LICENSE
-Charawey-X
+Charawey-X \
 Email: [charawey@gmail.com](charawey@gmail.com)

@@ -57,7 +57,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Wrapper for item list */
 .bm-item-list {
   color: white;
-  padding: 0.8em;
+  padding: 0;
 }
 
 /* Individual item */
@@ -85,5 +85,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0);
+  display:none;
+  background: rgba(0, 0, 0, 0.3);
 }

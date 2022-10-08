@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import './Hero.css';
 import Barbels from '../../assets/barbels.png';
 import {motion} from 'framer-motion';
+import NumberCounter from 'number-counter';
 
 
 const Hero = () => {
@@ -36,15 +37,21 @@ const Hero = () => {
             </section>
             <section className='figures'>
                 <div>
-                    <span id='figure1'>+100</span>
+                    <span id='figure1'>
+                        <NumberCounter end={140} start= {0} delay="6" preFix="+" />
+                    </span>
                     <span>EXPERT COACHES</span>
                 </div>
                 <div>
-                    <span id='figure2'>+978</span>
+                    <span id='figure2'>
+                        <NumberCounter end={978} start= {0} delay="6" preFix="+" />
+                    </span>
                     <span>MEMBERS JOINED</span>
                 </div>
                 <div>
-                    <span id='figure3'>+50</span>
+                    <span id='figure3'>
+                        <NumberCounter end={50} start= {0} delay="6" preFix="+" />
+                    </span>
                     <span>FITNESS PROGRAMS</span>
                 </div>
             </section>

@@ -7,6 +7,8 @@ import {motion} from 'framer-motion';
 
 const Hero = () => {
     const transition = {type: 'spring', duration: 5};
+    const mobile = window.innerWidth <=678? true: false;
+    const tab = window.innerWidth <=992 && window.innerWidth >678 ? true: false;
   return (
     <div className="hero" id='hero'>
         <div className='blur hero-blur'></div>
@@ -14,8 +16,9 @@ const Hero = () => {
             <Header></Header>
             <section className='best'>
                 <motion.div
-                    initial={{left:'350px'}}
-                    whileInView={{left:'8px', transition: transition}}
+                    initial={{left: mobile?'130px': (tab?'300px':'350px')}}
+                    whileInView={{left:'0px'}}
+                    transition={{...transition, type:"tween"}}
                 ></motion.div>
                 <span>THE BEST FITNESS CLUB IN TOWN</span>
             </section>

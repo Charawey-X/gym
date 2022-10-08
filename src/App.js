@@ -7,9 +7,10 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Join from './components/Join/Join';
 import Footer from './components/Footer/Footer';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='App'>
       <Hero></Hero>
       <Programs></Programs>
       <Benefits></Benefits>

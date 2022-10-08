@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 import Logo from '../../assets/logo1.png';
+import Sidebar from '../Sidebar/Sidebar';
+
 
 const Header = () => {
   return (
@@ -13,6 +15,7 @@ const Header = () => {
             <li>Testimonials</li>
             <li>Contact Us</li>
         </ul>
+        <Sidebar pageWrapId={'hero'} outerContainerId={'App'}></Sidebar>
     </div>
   )
 }
